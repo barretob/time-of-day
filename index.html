@@ -69,7 +69,7 @@
 		</header>
 		<main>
 			<header>
-				<h3>A JavaScript project by YOUR NAME HERE</h3>
+				<h3>A JavaScript project by Bryan Barreto</h3>
 				<h3 id="my-greeting">Greeting</h3>
 			</header>
 			<p>
@@ -155,13 +155,11 @@
 				"Saturday",
 			];
 
-			const thisDay = myDate.getUTCDay();
+			const thisDay = myDate.getDay();
 			console.log(thisDay);
 			const textDay = weekDays[thisDay];
 			document.getElementById("test-ID").innerHTML = textDay;
 
-			//REMOVE THE NEXT LINE WHEN DONE TESTING
-			// myHour = 3;
 			console.log(myDate);
 			console.log(myHour);
 			if (myHour >= 5 && myHour < 12) {
@@ -180,7 +178,6 @@
 				myGreeting = "Good night!";
 				myColor = "black";
 				myPic = "night.jpg";
-				console.log("hello");
 			}
 
 			//add images path to myPic
